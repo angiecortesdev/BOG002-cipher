@@ -26,6 +26,7 @@ span {
 /* SECTION */
 
 .message {
+    margin-top: 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -34,6 +35,17 @@ span {
 
 .hijo {
     border: 3px solid blue;
+    margin-top: 20px;
+}
+
+.button {
+    width: 80px;
+    height: 40px;
+    background-color: #BF6B6B;
+}
+
+.rango {
+    width: 360px;
 }
 
 
