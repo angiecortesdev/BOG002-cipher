@@ -1,9 +1,23 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
-
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+body .bg-img{
+    content: " ";
+    background: url(../../assets/besos.jpg);
+    background-size: 160px;
+    width:100vw; 
+    height: 100vh;
+    opacity: 0.4;
+    position: absolute;
+    z-index: 0;
+}
 
 /* HEADER */
 
@@ -14,45 +28,49 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    z-index: 1;
 }
 
-span {
+.header h1 {
     font-family: 'Akaya Kanadaka', cursive;
     font-size: 30px;
     color: cornsilk;
 }
 
-
 /* SECTION */
 
 .message {
-    margin-top: 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
+    position: relative;
+    z-index: 1;
 }
-
-.hijo {
-    border: 3px solid blue;
+.message .hijo {
+    border: 10px solid #BFA24B;
     margin-top: 20px;
 }
-
-.button {
+.message .verde{
+    border: 10px solid #47A638;
+}
+.message .button{
+    margin-top: 50px;
     width: 80px;
     height: 40px;
-    background-color: #BF6B6B;
+    background-color: #ac4343;
+    color: cornsilk;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
 }
-
-.rango {
+.message .rango{
     width: 360px;
 }
-
-
 /* FOOTER */
 
-.footer {
-    position: fixed;
+.footer{
     bottom: 0;
     width: 100%;
     height: 100px;
@@ -62,8 +80,10 @@ span {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    z-index: 1;
 }
 
-.footer p {
+.footer p{
     text-align: center;
 }
