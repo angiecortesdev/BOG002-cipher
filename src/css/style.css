@@ -1,6 +1,8 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
 }
 body{
     display: flex;
@@ -9,7 +11,6 @@ body{
     height: 100vh;
 }
 body .bg-img{
-    content: " ";
     background: url(../../assets/besos.jpg);
     background-size: 160px;
     width:100vw; 
@@ -38,8 +39,38 @@ body .bg-img{
     color: cornsilk;
 }
 
-/* SECTION */
 
+/* section solo para pagina principal */
+.message h2{
+    font-size: 40px;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px;
+}
+.container .color{
+    background: #47A638;
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px solid #47A638;
+}
+.container .color .estilos{
+    color: cornsilk;
+    font-size: 20px;
+}
+.container .amarillo{
+    background-color: #BFA24B;
+}
+
+/* SECTION */
 .message {
     display: flex;
     justify-content: space-around;
@@ -61,7 +92,6 @@ body .bg-img{
     height: 40px;
     background-color: #ac4343;
     color: cornsilk;
-    text-decoration: none;
     border: none;
     border-radius: 5px;
 }
