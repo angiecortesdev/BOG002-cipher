@@ -43,6 +43,7 @@ body .bg-img{
 /* section solo para pagina principal */
 .message h2{
     font-size: 40px;
+    background-color: rgb(255, 248, 239);
 }
 .container{
     display: flex;
@@ -60,7 +61,6 @@ body .bg-img{
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 10px solid #47A638;
 }
 .container .color .estilos{
     color: cornsilk;
