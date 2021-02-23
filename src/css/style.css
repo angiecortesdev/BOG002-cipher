@@ -2,6 +2,24 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+}
+
+body .bg-img {
+    background: url(../assets/besos.jpg);
+    background-size: 160px;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.4;
+    position: absolute;
+    z-index: 0;
 }
 
 body {
@@ -18,44 +36,84 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    z-index: 1;
 }
 
-span {
+.header h1 {
     font-family: 'Akaya Kanadaka', cursive;
     font-size: 30px;
     color: cornsilk;
 }
 
 
+/* section solo para pagina principal */
+
+.message h2 {
+    font-size: 40px;
+    background-color: rgb(255, 248, 239);
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    width: 400px;
+    height: 100px;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px;
+}
+
+.container .color {
+    background: #47A638;
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .color .estilos {
+    color: cornsilk;
+    font-size: 20px;
+}
+
+.container .amarillo {
+    background-color: #BFA24B;
+}
+
+
 /* SECTION */
 
 .message {
-    margin-top: 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: column;
+    position: relative;
+    z-index: 1;
 }
 
-.hijo {
-    border: 3px solid blue;
+.message .hijo {
+    border: 10px solid #BFA24B;
     margin-top: 20px;
 }
 
-.button {
+.message .verde {
+    border: 10px solid #47A638;
+}
+
+.message .button {
+    margin-top: 50px;
     width: 80px;
     height: 40px;
-    background-color: #BF6B6B;
-    border-radius: 20px;
-    margin-top: 30px;
+    background-color: #ac4343;
+    color: cornsilk;
+    border: none;
+    border-radius: 5px;
 }
 
-.button a {
-    text-decoration: none;
-    color: white;
-}
-
-.rango {
+.message .rango {
     width: 360px;
     background-color: red;
 }
@@ -64,7 +122,6 @@ span {
 /* FOOTER */
 
 .footer {
-    position: fixed;
     bottom: 0;
     width: 100%;
     height: 100px;
@@ -74,6 +131,8 @@ span {
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    z-index: 1;
 }
 
 .footer p {
