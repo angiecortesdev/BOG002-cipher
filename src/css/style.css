@@ -11,7 +11,7 @@ body{
     height: 100vh;
 }
 body .bg-img{
-    background: url(../../assets/besos.jpg);
+    background: url(../assets/besos.jpg);
     background-size: 160px;
     width:100vw; 
     height: 100vh;
