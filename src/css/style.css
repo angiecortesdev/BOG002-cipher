@@ -22,10 +22,6 @@ body .bg-img {
     z-index: 0;
 }
 
-body {
-    background: url()
-}
-
 
 /* HEADER */
 
@@ -115,7 +111,6 @@ body {
 
 .message .rango {
     width: 360px;
-    background-color: red;
 }
 
 
