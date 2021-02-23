@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background: url()
+}
+
 
 /* HEADER */
 
@@ -42,10 +46,18 @@ span {
     width: 80px;
     height: 40px;
     background-color: #BF6B6B;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+
+.button a {
+    text-decoration: none;
+    color: white;
 }
 
 .rango {
     width: 360px;
+    background-color: red;
 }
 
 
