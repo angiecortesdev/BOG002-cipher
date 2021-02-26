@@ -1,23 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desencriptar</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="js/desencriptado.js"></script>
 </head>
+
 <body>
     <header class="header">
         <h1>Desencriptado</h1>
     </header>
     <div class="bg-img"></div>
+
+
     <section class="message">
-        <textarea class="hijo" name="messages" id="" cols="80" rows="5"></textarea>
-        <textarea class="hijo verde" name="messages" id="" cols="80" rows="5"></textarea>
+        <h2>Mensaje:</h2>
+        <textarea class="hijo" name="messages" id="mensaje" cols="80" rows="5" placeholder="Digita tu mensaje aquí"></textarea>
+        <label>Desplazamiento</label>
+        <input type="range" id="desplazamiento" max="3" />
+        <button type="button" id="descifrar">Desencriptar</button>
+        <textarea class="hijo verde" name="messages" id="mensaje2" cols="80" rows="5" disabled></textarea>
+
         <button class="button">Volver</button>
     </section>
+
+
     <footer class="footer">
         <p>Realizado Por Leidy Sánchez &amp; Angie Cortés <br> &copy; Todos Los Derechos Reservados</p>
     </footer>
+
 </body>
+
 </html>
