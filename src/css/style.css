@@ -4,21 +4,24 @@
     box-sizing: border-box;
     text-decoration: none;
 }
-body{
+
+body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     height: 100vh;
 }
-body .bg-img{
+
+body .bg-img {
     background: url(../assets/besos.jpg);
     background-size: 160px;
-    width:100vw; 
+    width: 100vw;
     height: 100vh;
     opacity: 0.3;
     position: absolute;
     z-index: 0;
 }
+
 
 /* HEADER */
 
@@ -41,11 +44,13 @@ body .bg-img{
 
 
 /* section solo para pagina principal */
-.message h2{
+
+.message h2 {
     font-size: 40px;
     background-color: rgb(255, 248, 239);
 }
-.container{
+
+.container {
     display: flex;
     flex-direction: row;
     width: 400px;
@@ -54,7 +59,8 @@ body .bg-img{
     align-items: center;
     margin: 30px;
 }
-.container .color{
+
+.container .color {
     background: #47A638;
     width: 150px;
     height: 40px;
@@ -62,15 +68,19 @@ body .bg-img{
     justify-content: center;
     align-items: center;
 }
-.container .color .estilos{
+
+.container .color .estilos {
     color: cornsilk;
     font-size: 20px;
 }
-.container .amarillo{
+
+.container .amarillo {
     background-color: #BFA24B;
 }
 
+
 /* SECTION */
+
 .message {
     display: flex;
     justify-content: space-around;
@@ -79,14 +89,17 @@ body .bg-img{
     position: relative;
     z-index: 1;
 }
+
 .message .hijo {
     border: 10px solid #BFA24B;
     margin-top: 20px;
 }
-.message .verde{
+
+.message .verde {
     border: 10px solid #47A638;
 }
-.message .button{
+
+.message .button {
     margin-top: 50px;
     width: 80px;
     height: 40px;
@@ -95,7 +108,8 @@ body .bg-img{
     border: none;
     border-radius: 5px;
 }
-.message .rango{
+
+.message .rango {
     width: 360px;
     border: none;
 }
@@ -103,9 +117,11 @@ body .bg-img{
     text-decoration: none;
     color:cornsilk
 }
+
+
 /* FOOTER */
 
-.footer{
+.footer {
     bottom: 0;
     width: 100%;
     height: 100px;
@@ -119,6 +135,6 @@ body .bg-img{
     z-index: 1;
 }
 
-.footer p{
+.footer p {
     text-align: center;
 }
