@@ -12,6 +12,6 @@ function inicio() {
     document.getElementById("descifrar").addEventListener("click", function() {
         let string = document.getElementById("mensaje").value;
         let offset = document.getElementById("desplazamiento").value;
-        document.getElementById("mensaje2").value = cipher.decode(string, offset);
+        document.getElementById("mensaje2").value = cipher.decode(offset, string);
     }, true);
 }
