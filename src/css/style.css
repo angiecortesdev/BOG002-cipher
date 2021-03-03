@@ -113,9 +113,10 @@ body .bg-img {
     width: 360px;
     border: none;
 }
-.message button a{
+
+.message button a {
     text-decoration: none;
-    color:cornsilk
+    color: cornsilk
 }
 
 
