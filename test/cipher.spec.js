@@ -8,8 +8,65 @@ import cipher from '../src/cipher';
 
 describe('cipher', () => {
 
+<<<<<<< HEAD
     it('should be an object', () => {
         expect(typeof cipher).toBe('object');
+=======
+  it('should be an object', () => {
+    expect(typeof cipher).toBe('object');
+  });
+
+  describe('cipher.encode', () => {
+
+    it('should be a function', () => {
+      expect(typeof cipher.encode).toBe('function');
+    });
+
+    it('should throw TypeError when invoked with wrong argument types', () => {
+      expect(() => cipher.encode()).toThrow(TypeError);
+      expect(() => cipher.encode(0)).toThrow(TypeError);
+      expect(() => cipher.encode(null, [])).toThrow(TypeError);
+      expect(() => cipher.encode(0, 0)).toThrow(TypeError);
+    });
+
+    it('should return "HIJKLMNOPQRSTUVWXYZABCDEFG" for "ABCDEFGHIJKLMNOPQRSTUVWXYZ" with offset 3', () => {
+      expect(cipher.encode(33, 'ABCDEFGHIJKLMNOPQRSTUVWXYZ')).toBe('HIJKLMNOPQRSTUVWXYZABCDEFG');
+    });
+
+    // Hacker edition
+    //
+    // [Español]
+    // Si decides agregar soporte para minúsculas descomenta el test a
+    // continuación.
+    //
+    // [Português]
+    // Se quiser adicionar testes para letras minúsculas, descomente o teste
+    // abaixo.
+    //
+    // it('should return "hijklmnopqrstuvwxyzabcdefg" for "abcdefghijklmnopqrstuvwxyz" with offset 33', () => {
+    //   expect(cipher.encode(33, 'abcdefghijklmnopqrstuvwxyz')).toBe('hijklmnopqrstuvwxyzabcdefg');
+    // });
+
+    // Hacker edition
+    //
+    // [Español]
+    // Si decides implementar soporte para caracteres no alfabéticos descomenta
+    // el test a continuación.
+    //
+    // [Português]
+    // Se quiser adicionar testes para caracteres não alfabéticos, descomente o
+    // teste abaixo.
+    //
+    // it('should return " !@" for " !@"', () => {
+    //   expect(cipher.encode(33, ' !@')).toBe(' !@');
+    // });
+  });
+
+  describe('cipher.decode', () => {
+
+    it('should be a function', () => {
+      expect(typeof cipher.decode).toBe('function');
+>>>>>>> 245f43aae05823093fde909a4d435d499ed7dafd
     });
 
     describe('cipher.encode', () => {
