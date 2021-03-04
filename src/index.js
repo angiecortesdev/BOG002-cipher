@@ -1,5 +1,7 @@
 import cipher from './cipher.js';
 
+window.addEventListener("load", inicio, true);
+
 let message=document.getElementById('message');
 message.addEventListener('keyup',function(){
     message.value
@@ -9,9 +11,6 @@ message.addEventListener('keyup',function(){
     encrypted.style.fontWeight='bold'
     encrypted.textContent=cipher.encode(3,message.value)
 });
-
-window.addEventListener("load", inicio, true);
-
 
 function inicio() {
     document.getElementById("mensaje").addEventListener("keyup", function() {
