@@ -12,9 +12,6 @@ message.addEventListener('keyup', function() {
     encrypted.textContent = cipher.encode(3, message.value)
 });
 
-
-
-
 function inicio() {
     document.getElementById("mensaje").addEventListener("keyup", function() {
         // eslint-disable-next-line no-undef
