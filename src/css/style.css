@@ -79,6 +79,13 @@ body .bg-img {
 }
 
 
+/* barra de desplazamiento oculta */
+
+input[type=number] {
+    display: none;
+}
+
+
 /* SECTION */
 
 .message {
@@ -110,8 +117,9 @@ body .bg-img {
 }
 
 .message .rango {
-    width: 360px;
+    width: 30px;
     border: none;
+    display: none;
 }
 
 .message button a {
