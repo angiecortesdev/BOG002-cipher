@@ -13,6 +13,31 @@
 ## 1. Críptolove
 
 Criptolove es una aplicación que permite encriptar y desencriptar mensajes para tu amad@, sugar daddy o sugar mommy, nuestro programa funciona con el uso del cifrado cesar para poder encriptar o desencriptar tu mensaje, puedes así obtener un párrafo completo o una frase para que no te descubran mientras escribes a esa persona secreta.
+
+### Instalación
+
+Si quieres correr el código de este proyecto sigue estas instrucciones:
+
+1. Ingresa a la página: 
+
+github.com/angiecortesdev/BOG002-cipher.
+
+2.Hacer Fork dentro de la página.
+
+ poner imagen (pendiente).
+
+3.Hacer git clone github.com/angiecortesdev/BOG002-cipher.git.
+
+4.Abrir el archivo con visual studio code o el editor de tu preferencia.
+
+5.Asegurate de tener instalado nodejs. En caso de no tenerlo dirigete a está página:
+
+ nodejs.org/en/
+
+6.Si ya tienes nodejs en tu computadora, ve tu terminal y ingresa npm i (para actualizar los packetes de node).
+
+7.Cuando actualicen los paquetes de node, En tu terminal ingresa npm start.
+
 ![caeser-cipher](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Caesar3.svg/2000px-Caesar3.svg.png)
 
 El cifrado césar es una de las técnicas más simples para cifrar un mensaje. Es
