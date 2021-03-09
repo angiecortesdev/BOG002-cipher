@@ -3,9 +3,9 @@
 ## Índice
 
 * [1. Criptolove](#1-Criptolove)
-* [2. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
-* [4. Consideraciones generales](#4-consideraciones-generales)
-* [5. Criterios de aceptación mínimos del proyecto](#5-criterios-de-aceptación-mínimos-del-proyecto)
+* [2. Instalación](#2-Instalacion)
+* [3. Objetivos de aprendizaje](#3-Objetivos-de-aprendizaje)
+* [4. Definición del producto](#Definicion-del-producto)
 * [9. Checklist](#9-checklist)
 
 ***
@@ -13,37 +13,6 @@
 ## 1. Críptolove
 
 Criptolove es una aplicación que permite encriptar y desencriptar mensajes para tu amad@, sugar daddy o sugar mommy, nuestro programa funciona con el uso del cifrado cesar para poder encriptar o desencriptar tu mensaje, puedes así obtener un párrafo completo o una frase para que no te descubran mientras escribes a esa persona secreta.
-
-### Instalación
-
-Si quieres correr el código de este proyecto sigue estas instrucciones:
-
-1. Ingresa a la página: 
-
-github.com/angiecortesdev/BOG002-cipher.
-
-2.Hacer Fork dentro de la página.
-
- poner imagen (pendiente).
-
-3.Hacer git clone github.com/angiecortesdev/BOG002-cipher.git.
-
-4.Abrir el archivo con visual studio code o el editor de tu preferencia.
-
-5.Asegurate de tener instalado nodejs. En caso de no tenerlo dirigete a está página:
-
- nodejs.org/en/
-
-6.Si ya tienes nodejs en tu computadora, ve tu terminal y ingresa npm i (para actualizar los packetes de node).
-
-7.Cuando actualicen los paquetes de node, En tu terminal ingresa npm start.
-
-![caeser-cipher](https://upload.wikimedia.org/wikipedia/commons/thumb/2/2b/Caesar3.svg/2000px-Caesar3.svg.png)
-
-El cifrado césar es una de las técnicas más simples para cifrar un mensaje. Es
-un tipo de cifrado por sustitución, es decir que cada letra del texto original
-es reemplazada por otra que se encuentra un número fijo de posiciones
-(desplazamiento) más adelante en el mismo alfabeto.
 
 En Criptolove usamos un desplazamiento de 3 posiciones.
 
@@ -54,7 +23,37 @@ Ejemplo:
 * Alfabeto sin cifrar: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 * Alfabeto cifrado:    D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
 
-## 2. Objetivos de aprendizaje
+## 2. Instalación
+
+Si quieres correr el código de este proyecto sigue estas instrucciones:
+
+1. Ingresa a la página:
+
+github.com/angiecortesdev/BOG002-cipher.
+
+2. Haz Fork dentro de la página, esto con el fin de copiar el repositorio en tu GitHub.
+
+3. Ahora debes clonar el codigo mediante el comando:
+
+```
+ git clone github.com/angiecortesdev/BOG002-cipher.git.
+```
+
+4. Abre el archivo con visual studio code o el editor de tu preferencia.
+
+5. Asegurate de tener instalado node.js. En caso de no tenerlo dirigete a está página:
+
+[node js](https://nodejs.org/en/)
+
+6. Si por lo contrario ya cuentas con node js en tu computadora, ve tu terminal e ingresa el comando:
+
+``` 
+ npm i (para actualizar los packetes de node)
+```
+
+7. Cuando actualicen los paquetes de node, En tu terminal ingresa npm start, podras ver y comenzar a trabajar en el proyecto.
+
+## 3. Objetivos de aprendizaje
 
 Trabajando en parejas aprenderán a construir una aplicación web que interactuará
 con lx usuarix final a través del navegador, utilizando HTML, CSS y JavaScript
@@ -100,18 +99,15 @@ como tecnologías.
 
 * [X] Diseñar la aplicación pensando y entendiendo al usuario.
 * [X] Crear prototipos para obtener feedback e iterar.
-* [ ] Aplicar los principios de diseño visual (contraste, alineación, jerarquía)
+* [X] Aplicar los principios de diseño visual (contraste, alineación, jerarquía)
 
-### Definición del producto
+## 4. Definición del producto
 
-* ¿Quiénes son los principales usuarios de producto?.
-* Nuestro público objetivo son personas con edades entre 18 a 80.
+* ¿Quiénes son los principales usuarios de producto?: Nuestro público objetivo son personas con edades entre 18 a 80.
 
-* ¿Cuáles son los objetivos de estos usuarios en relación con tu producto?.
-* Tener un lugar seguro para poder chatear con tu persona amada.
+* ¿Cuáles son los objetivos de estos usuarios en relación con tu producto?: Tener un lugar seguro para poder chatear con tu persona amada.
 
-* ¿Cómo crees que el producto que estás creando está resolviendo sus problemas?.
-* Ya sabemos que para nuestros usuarios es importante su seguridad y sencillez a la hora  del uso.
+* ¿Cómo crees que el producto que estás creando está resolviendo sus problemas?: Ya sabemos que para nuestros usuarios es importante su seguridad y sencillez a la hora  del uso.
 
 ### Scripts / Archivos
 
