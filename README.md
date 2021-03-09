@@ -1,4 +1,3 @@
-# Cifrado César
 
 ## Índice
 
