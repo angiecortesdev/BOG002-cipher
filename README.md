@@ -59,7 +59,7 @@ github.com/angiecortesdev/BOG002-cipher.
 6. Si por lo contrario ya cuentas con node js en tu computadora, ve tu terminal e ingresa el comando:
 
 ``` 
- npm i (para actualizar los packetes de node)
+npm i (para actualizar los packetes de node)
 ```
 
 7. Cuando actualicen los paquetes de node, En tu terminal ingresa npm start, podras ver y comenzar a trabajar en el proyecto.
