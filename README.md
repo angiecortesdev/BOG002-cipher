@@ -6,6 +6,7 @@
 * [2. Instalación](#2-Instalacion)
 * [3. Objetivos de aprendizaje](#3-Objetivos-de-aprendizaje)
 * [4. Definición del producto](#Definicion-del-producto)
+* [5. Consideraciones técnicas](#Consideraciones-tecnicas)
 * [9. Checklist](#9-checklist)
 
 ***
@@ -22,6 +23,17 @@ Ejemplo:
 * La palabra CASA se cifra como FDVD.
 * Alfabeto sin cifrar: A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
 * Alfabeto cifrado:    D E F G H I J K L M N O P Q R S T U V W X Y Z A B C
+
+## Diseño:
+
+Para el diseño de nuestra aplicación, iniciamos a hacer un boceto en modo compartido con Figma, procuramos que la paleta de colores fuera armonica y acoorde con el fondo, sin embargo en el proceso hubo una modificacion en la parte de la opacidad del fondo, debido a que es dificil poder ver la letra y los botones para el usuario.
+
+![Pantalla de inicio](./src/assets/inicio.jpeg)
+
+Posteriormente continuamos con el mismo formato y distribucion de los elementos para las pantallas de desencriptado y encriptado, manteniendo la paleta de colores de la pantalla de inicio.
+
+![Pantalla encriptado](./src/assets/encriptar.jpeg)
+![Pantalla desencriptado](./src/assets/desencriptado.jpeg)
 
 ## 2. Instalación
 
@@ -109,28 +121,9 @@ como tecnologías.
 
 * ¿Cómo crees que el producto que estás creando está resolviendo sus problemas?: Ya sabemos que para nuestros usuarios es importante su seguridad y sencillez a la hora  del uso.
 
-### Scripts / Archivos
+## 5. Consideraciones técnicas
 
-* `README.md`: debe explicar cómo descargar, instalar y ejecutar la aplicación
-  así como una introducción a la aplicación, su funcionalidad y decisiones de
-  diseño que tomaron.
-* `src/index.html`: este es el punto de entrada a tu aplicación. Este archivo
-  debe contener tu _markup_ (HTML) e incluir el CSS y JavaScript necesario.
-* `src/cipher.js`: acá debes implementar el objeto `cipher`, el cual ya está
-  _exportado_ en el _boilerplate_. Este objeto (`cipher`) debe contener dos
-  métodos:
-  `cipher.encode(offset, string)`: `offset` es el número de posiciones que
-    queremos mover a la derecha en el alfabeto y `string` el mensaje (texto)
-    que queremos cifrar.
-* `cipher.decode(offset, string)`: `offset` es el número de posiciones que
-    queremos mover a la izquierda en el alfabeto y `string` el mensaje
-    (texto) que queremos descifrar.
-* `src/index.js`: acá debes escuchar eventos del DOM, invocar `cipher.encode()`
-  o `cipher.decode()` según sea necesario y actualizar el resultado en la UI.
-* `test/cipher.spec.js`: este archivo contiene algunos tests de ejemplo y acá
-  tendrás que implementar los tests para `cipher.encode()` y `cipher.decode()`.
-
-## 7. Consideraciones técnicas
+El boilerplate contiene una estructura de archivos como punto de partida así como toda la configuración de dependencias y tests:
 
 ```text
 ./
@@ -141,10 +134,18 @@ como tecnologías.
 ├── README.md
 ├── package.json
 ├── src
+│   ├── assets
+          ├── besos.jpg
+          ├── desencriptado.jpg
+          ├── encriptado. jpg
+          └── inicio.jpg
 │   ├── cipher.js
 │   ├── index.html
+│   ├── encriptado.html
+│   ├── desencriptado.html
 │   ├── index.js
-│   └── style.css
+│   └── css
+          └── styles.css
 └── test
     ├── .eslintrc
     └── cipher.spec.js
